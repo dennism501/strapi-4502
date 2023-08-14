@@ -19,6 +19,12 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "tag"
+    },
+    "courses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::course.course",
+      "mappedBy": "tag"
     }
   }
 }
